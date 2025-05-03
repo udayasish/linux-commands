@@ -1,3 +1,5 @@
+--------------------Basic commands--------------------
+
 Make and write a file:
   vi filename
   Press Esq and I to satrt writing
@@ -11,3 +13,20 @@ Remove a file:
 
 Remove a directory:
   rm -r directory_name
+
+
+--------------------Processing and Mangement related commands--------------------
+
+For looking into the server's memory:
+  free
+  free -g (better readability)
+
+Number of CPUs in my server:
+  nproc
+
+What is the disk size of the server:
+  df -h
+
+To manage the CPUs - memory percentages or to look into the details of it:
+  top
+
