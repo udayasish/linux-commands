@@ -5,3 +5,9 @@ Make and write a file:
 
 Print the file
   cat filename
+
+Remove a file:
+  rm filename
+
+Remove a directory:
+  rm -r directory_name
