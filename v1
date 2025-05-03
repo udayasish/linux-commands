@@ -1,10 +1,10 @@
 --------------------Basic commands--------------------
 
 Make and write a file:
-  vi filename
+  vi filename       (we can also use vim, but it is not available by default)
   Press Esq and I to satrt writing
   Press Esq and write :wq! to save and exit the file
-
+ 
 Print the file
   cat filename
 
@@ -13,6 +13,10 @@ Remove a file:
 
 Remove a directory:
   rm -r directory_name
+
+Details of a command:
+  man <command>
+  like: man ls, man touch, man vi
 
 
 --------------------Processing and Mangement related commands--------------------
@@ -30,3 +34,10 @@ What is the disk size of the server:
 To manage the CPUs - memory percentages or to look into the details of it:
   top
 
+
+
+
+In a vim editor(writing a shell script):
+  #!    : called as shebang
+  /bin/bash or /bin/sh or /bin/ksh or /bin/dash   : these are executable that executes the shell script
+  (So while wring a shell script, we have to specify the linux OS that we are using bash or dash or sh to execute the shell script)
