@@ -1,0 +1,4 @@
+Make and write a file:
+  vi filename
+  Press Esq and I to satrt writing
+  Press Esq and write :wq! to save and exit the file
