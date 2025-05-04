@@ -54,6 +54,8 @@ To Grant permission to a file:
 
 To grant a executable permission:
   chmod 777 file_name
-  This is grant execute permisiion for you, your group and to all users(everyone) because we give 7 7 7 to all of them.
+  This will grant complete permission for you, your group and to all users(everyone) because we give 7 7 7 to all of them.
 
 
+To see all the commands you have entered previously:
+  history
