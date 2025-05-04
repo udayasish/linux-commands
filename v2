@@ -8,4 +8,5 @@ To check all the processes running in your VM:
   ps -ef     (full processes)
   ps         (some processes only)
 
-
+To check only the processes that matches a keyword:
+  ps -ef | grep "key_word"
