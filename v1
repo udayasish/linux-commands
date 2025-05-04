@@ -41,3 +41,19 @@ In a vim editor(writing a shell script):
   #!    : called as shebang
   /bin/bash or /bin/sh or /bin/ksh or /bin/dash   : these are executable that executes the shell script
   (So while wring a shell script, we have to specify the linux OS that we are using bash or dash or sh to execute the shell script)
+
+  Commonly we use #!/bin/bash. Earlier when use #!/bin/sh then it is commonly linked to #!/bin/bash through linking. But nowadays #!/bin/sh is linnked to #!/bin/dash in many OS. So always good to specify the exact executable like bash.
+
+
+To execute a file:
+  ./file_name or sh file_name
+
+To Grant permission to a file:
+  chmod
+  chmod follows a rule of 4 2 1 where 4 means read, 2 means write and 1 means execute
+
+To grant a executable permission:
+  chmod 777 file_name
+  This is grant execute permisiion for you, your group and to all users(everyone) because we give 7 7 7 to all of them.
+
+
