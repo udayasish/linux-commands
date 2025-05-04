@@ -10,3 +10,5 @@ To check all the processes running in your VM:
 
 To check only the processes that matches a keyword:
   ps -ef | grep "key_word"
+  Here, the pipe (|) is sinding the first command's output to the second command
+  i.e. the output of ps -ef is sent to grep "key_word" using the | operator.
