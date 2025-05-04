@@ -1,0 +1,11 @@
+Node Healt of Your VM:
+
+
+In a shell script, open debug mode for seeing all the commands before their execution:
+  set -x
+
+To check all the processes running in your VM:
+  ps -ef     (full processes)
+  ps         (some processes only)
+
+
